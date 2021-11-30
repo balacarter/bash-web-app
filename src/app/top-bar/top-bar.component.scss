@@ -1,0 +1,28 @@
+.top-bar {
+    background-color: black;
+    height: auto;
+    border-bottom: 3px solid #00FF41;
+}
+.container.buttons {
+    flex-flow: column;
+    width:fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.button {
+    color: #FFF;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button.active {
+    color: #00FF41;
+    background-color: rgb(46, 46, 46);
+}
+.nav-content {
+    background-color: rgb(46, 46, 46);
+    margin-top: 10px;
+    flex: 1;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
